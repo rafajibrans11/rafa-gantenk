@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Mahasiswa</title>
+    <link rel="stylesheet" href="percobaan 2.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Data Mahasiswa</h2>
+        
+        <label>Nama</label>
+        <input type="text" placeholder="Masukkan nama">
+        
+        <label>NRP</label>
+        <input type="text" placeholder="Masukkan NRP">
+        
+        <label>Program Studi</label>
+        <select>
+            <option>Teknik Informatika</option>
+            <option>Teknik Elektro</option>
+            <option>Teknik Telekomunikasi</option>
+        </select>
+        
+        <button>Simpan</button>
+    </div>
+</body>
+</html>

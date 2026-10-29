@@ -1,0 +1,13 @@
+s<?php
+    $host     = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "db_login";
+
+    $koneksi = mysqli_connect($host, $username, $password, $database);
+
+    if (!$koneksi) {
+        die("Koneksi GAGAL: " . mysqli_connect_error());
+    }
+    echo "Koneksi ke database MySQL BERHASIL!";
+?>
